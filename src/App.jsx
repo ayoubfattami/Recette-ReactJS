@@ -42,67 +42,6 @@ const App = () => {
   };
 
   return (
-//     <div className="App bg-gradient-to-br from-red-400 to-red-700 min-h-screen">
-//       <div className="flex flex-col items-center justify-center py-16">
-//         <h1 className="text-5xl text-white font-extrabold mb-12">Recipe Finder</h1>
-//         <div className="w-full max-w-2xl p-6 bg-white rounded-xl shadow-md">
-//           <div className="flex items-center">
-//             <div className="flex items-center w-full bg-gray-100 rounded-full overflow-hidden">
-//               <Search className="text-gray-500 ml-4" size={24} />
-//               <input
-//                 type="text"
-//                 value={search}
-//                 onChange={(e) => setSearch(e.target.value)}
-//                 onKeyDown={handleSearch}
-//                 placeholder="Search for a recipe..."
-//                 className="outline-none bg-transparent w-full text-gray-700 p-4"
-//               />
-//             </div>
-//           </div>
-//         </div>
-//       </div>
-
-//       {error && (
-//         <div className="flex justify-center p-4">
-//           <div className="bg-red-200 border border-red-500 text-red-700 px-4 py-3 rounded-lg" role="alert">
-//             <strong className="font-bold">Oops! </strong>
-//             <span>{error}</span>
-//           </div>
-//         </div>
-//       )}
-
-//       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 px-8 py-12">
-//         {recipes.length === 0 && !error ? (
-//           <div className="text-white text-lg">Start by searching for a recipe above!</div>
-//         ) : (
-//           recipes.map((recipe, index) => (
-//             <div
-//               key={index}
-//               className="max-w-sm rounded-lg overflow-hidden shadow-md bg-white"
-//             >
-//               <img
-//                 className="w-full h-48 object-cover rounded-t-lg"
-//                 src={recipe.image}
-//                 alt={recipe.label}
-//               />
-//               <div className="px-6 py-4">
-//                 <h2 className="font-bold text-xl text-green-600 mb-2">{recipe.label}</h2>
-//                 <p className="text-gray-700 text-sm font-medium">Ingredients:</p>
-//                 <ul className="text-gray-700 text-sm space-y-1 mt-2">
-//                   {recipe.ingredients.map((ingredient, idx) => (
-//                     <li key={idx} className="list-disc ml-5">{ingredient.text}</li>
-//                   ))}
-//                 </ul>
-//               </div>
-//             </div>
-//           ))
-//         )}
-//       </div>
-//     </div>
-//   );
-// };
-
-
 
 
 <div className="App bg-gradient-to-r from-black to-gray-900 min-h-screen text-gray-300">
